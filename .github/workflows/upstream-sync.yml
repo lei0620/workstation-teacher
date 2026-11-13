@@ -1,9 +1,6 @@
 name: 上游自动同步（保留上游删除文件）
 
 on:
-  schedule:
-    # 每天 02:00 UTC（北京时间 10:00）
-    - cron: "0 2 * * *"
   workflow_dispatch:
 
 permissions:
